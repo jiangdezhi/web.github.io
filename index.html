@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>Bootstrap 实例 - 一个简单的网页</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">  
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+    .fakeimg {
+        height: 200px;
+        background: lightblue;
+      }
+	 .pic {
+		width:100
+  </style>
+</head>
+<body>
+<!--
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>机器学习</h1>
+</div>
+-->
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation"> 
+    <div class="container-fluid"> 
+    <div class="navbar-header"> 
+        <a class="navbar-brand" href="#">机器学习</a> 
+    </div> 
+    <div> 
+        <ul class="nav navbar-nav"> 
+
+            <li class="dropdown"> 
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
+                    python基础 <b class="caret"></b> 
+                </a> 
+                <ul class="dropdown-menu"> 
+                    <li><a href="#">pandas</a></li> 
+                    <li class="divider"></li> 
+                    <li><a href="#">numpy</a></li> 
+                    <li class="divider"></li> 
+                    <li><a href="#">matplotlib/seaborn</a></li> 
+                </ul> 
+            </li>
+
+			<li class="dropdown"> 
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
+                    爬虫 <b class="caret"></b> 
+                </a> 
+                <ul class="dropdown-menu"> 
+                    <li><a href="#">爬虫基础</a></li> 
+                    <li class="divider"></li> 
+                    <li><a href="#">分布式爬虫</a></li> 
+                    <li class="divider"></li> 
+                    <li><a href="#">scrapy</a></li> 
+                </ul> 
+            </li>
+
+            <li class="dropdown"> 
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
+                    机器学习 <b class="caret"></b> 
+                </a> 
+                <ul class="dropdown-menu"> 
+                    <li><a href="#">可视化</a></li> 
+                    <li><a href="#">特征工程</a></li> 
+                    <li><a href="#">机器学习模型</a></li> 
+                    <li class="divider"></li> 
+                    <li><a href="#">模型验证</a></li> 
+                    <li class="divider"></li> 
+                    <li><a href="#">其他</a></li> 
+                </ul> 
+            </li>
+
+			<li class="dropdown"> 
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
+                    云平台 <b class="caret"></b> 
+                </a> 
+                <ul class="dropdown-menu"> 
+                    <li><a href="#">阿里云</a></li> 
+                    <li class="divider"></li> 
+                    <li><a href="#">AWS</a></li> 
+                </ul> 
+            </li>
+			
+			<li class="dropdown"> 
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
+                    加速设置 <b class="caret"></b> 
+                </a> 
+                <ul class="dropdown-menu"> 
+                    <li><a href="#">GPU</a></li> 
+                    <li class="divider"></li> 
+                    <li><a href="#">TPU</a></li> 
+					<li class="divider"></li> 
+                    <li><a href="#">FPGA</a></li> 
+                </ul> 
+            </li>
+
+
+        </ul> 
+    </div> 
+    </div> 
+</nav>
+
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>关于我</h3>
+      <div class="container">	    
+		<img src="./images/github.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236"  alt="">
+	  </div>
+      <h3>分类</h3>
+      <ul class="nav nav-pills nav-stacked">
+        <li><a href="#">python基础</a></li>
+        <li><a href="#">爬虫</a></li>
+        <li><a href="#">机器学习</a></li>
+      </ul>
+      <hr class="hidden-sm hidden-md hidden-lg">
+    </div>
+    <div class="col-sm-8">
+      <h3>最近更新</h3>
+      <div class="">
+	    <img src="./images/scrapy.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236"  alt="">
+	  </div>
+
+      <br>
+
+      <h3>python基础</h3>
+      <div class="">
+	     <img src="./images/python_basic.jpg"  class="img-thumbnail" alt="Cinque Terre" width="304" height="236" alt="">
+		 <img src="images/multiprocessing.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236" alt="">	 
+	  </div>
+	   <br>
+
+      <h3>爬虫</h3>
+      <div class="">
+	    <img src="./images/scrapy.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236"  alt="">
+	  </div>
+	   <br>
+
+      <h3>机器学习</h3>
+      <div class="container">
+	    <img src="images/ML_intro.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236" alt="">
+		<img src="images/sklearn.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236" alt="">
+	  </div>
+	   <br>
+
+      <h3>云平台</h3>
+      <div class="">
+	    <img src="images/ML_intro.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236" alt="">
+		<img src="images/sklearn.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236" alt="">
+	  </div>
+	  <br>
+	  <h3>加速设施</h3>
+      <div class="">
+	    <img src="images/ML_intro.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236" alt="">
+		<img src="images/sklearn.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236" alt="">
+	  </div>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-left" style="margin-bottom:0">
+  <ul>
+	  <li><a href="https://sunnyjh.github.io" target="_blank">
+        <img class="icon" src="./images/github.png" alt="Github"></a></li>
+      <li><a href="https://www.zhihu.com/people/morvan/activities" target="_blank">
+        <img class="icon" src="./images/zhihu.png" alt="知乎"></a></li>
+    </ul>
+    <p><strong>Email:</strong>  530631297@qq.com</p>
+    <p>© 2018 sunnyjh.github.io All Rights Reserved</p>
+</div>
+</body>
+</html>
