@@ -23,9 +23,9 @@ dns:
       - "//dns17.hichina.com"
       
 #Github announce Settings
-github_username: joytou
-github_repo: joytou.github.io
-github_label: announcement
+github_username: sunnyjh
+github_repo: sunnyjh.github.io
+github_label: blog
 
 #Page settings
 future: true
