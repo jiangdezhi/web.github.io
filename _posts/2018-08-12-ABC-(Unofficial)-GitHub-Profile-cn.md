@@ -1,12 +1,12 @@
 ---
 layout: postcn
-title: "简介github-profile项目"
+title: "test"
 description: "github-profile项目的简介"
-date: 2018-08-12 16:28:08 +0800
+date: 2020-04-12 16:28:08 +0800
 lang: cn
 nav: post
 stickie: false
-category: official
+category: new
 tags: [github, profile]
 ---
 <img src="//joytou.net/assets/1534058755587.jpg" class="img-responsive">
